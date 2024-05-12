@@ -175,7 +175,7 @@ def main():
     # Cria o objeto e seleciona uma palavra randomicamente
     game = Hangman(rand_palavra())
 
-    # Enquanto o jogo não tiver terminado, print do status, solicita uma letra e faz a leitura do caracater
+    # Enquanto o jogo não tiver terminado, print do status, solicita uma letra e faz a leitura do caracatere
     while not game.hangman_over():
         
         # Status do game
